@@ -1,6 +1,41 @@
-body {
+main {
     font-family: 'Alegreya', serif;
-    background-image: url("CoachCarter.jpeg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    background-color: darksalmon;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: bisque;
+    
 }
